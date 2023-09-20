@@ -42,7 +42,6 @@ This code performs the following tasks:
 
 1. Ensure you have Python 3.x installed on your system.
 
-
 Navigate to the project directory:
 cd your-repo
 
