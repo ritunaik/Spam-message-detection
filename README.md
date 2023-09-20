@@ -42,21 +42,20 @@ This code performs the following tasks:
 
 1. Ensure you have Python 3.x installed on your system.
 
-2. Clone this repository to your local machine:
-   ```bash
-   
-   git clone https://github.com/yourusername/your-repo.git
-   
+
 Navigate to the project directory:
 cd your-repo
 
 Install the required libraries, if not already installed, using:
-
-pip install pandas numpy matplotlib seaborn nltk scikit-learn
+pip install pandas 
+pip install numpy 
+pip install matplotlib 
+pip install seaborn 
+pip install nltk 
+pip install scikit-learn
 
 Download NLTK stopwords and wordnet data:
 python
-
 
 import nltk
 nltk.download('stopwords')
@@ -66,19 +65,18 @@ Run the main Python script:
 python spam_detection.py
 
 Follow the code comments and output to understand the functionality and behavior of the code.
-Dependencies
 
+Dependencies : 
 Python 3.x
 Libraries: pandas, numpy, matplotlib, seaborn, nltk, scikit-learn
 License
 
 This code is provided under the MIT License. Feel free to use, modify, and distribute it as needed. Refer to the LICENSE file for more details.
 
-Author
-
+Author: 
 Ritu R Naik
 
-Acknowledgments
+Acknowledgments: 
 
 This code uses the NLTK library for text preprocessing and scikit-learn for machine learning.
 Enjoy exploring and experimenting with SMS spam detection!
